@@ -1,0 +1,10 @@
+PODS:
+  - SZTextView (1.1.1)
+
+DEPENDENCIES:
+  - SZTextView (~> 1.1.0)
+
+SPEC CHECKSUMS:
+  SZTextView: 28d06dc4c19e1372a174ec48fba2324d6796b1d6
+
+COCOAPODS: 0.33.1

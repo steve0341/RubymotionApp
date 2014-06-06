@@ -5,6 +5,7 @@ class FriendsScreen < PM::Screen
   def on_load
     # self.title = "Friend #{self.friend_id}"
     set_nav_bar_button :right, title: "Find a Friend?", action: :open_find_screen
+    set_tab_bar_item icon: 'group-25', title: "Friends"
   end
 
   def will_appear

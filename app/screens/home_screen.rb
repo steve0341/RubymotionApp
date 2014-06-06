@@ -5,7 +5,7 @@ class HomeScreen < PM::Screen
   def on_load
     set_nav_bar_button :left, title: 'Help', action: :open_help_screen
     open_modal LoginScreen.new(nav_bar: true)
-    set_tab_bar_item {{ title: Home}}
+    # set_tab_bar_item {icon: {selected: home-512, unselected: home-512}, title: Home}
   end
 
   def will_appear
@@ -24,7 +24,7 @@ class HomeScreen < PM::Screen
     #   frame: CGRectMake(10, 0, 300, 35)
     # }
 
-    open_tab_bar MainScreen.new(nav_bar: true), FriendsScreen.new(nav_bar: true), RequestScreen.new(nav_bar: true)
+    open_tab_bar MainScreen.new(nav_bar: true), FriendsScreen.new(nav_bar: true), RequestScreen.new(nav_bar: true), ExampleController.new(nav_bar: true)
   end
 
   def open_help_screen

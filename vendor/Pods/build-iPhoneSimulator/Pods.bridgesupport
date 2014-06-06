@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<class name='SZTextView'>
+<method selector='placeholder'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='placeholderTextColor'>
+<retval declared_type='UIColor*' type='@'/>
+</method>
+<method selector='setPlaceholder:'>
+<arg declared_type='NSString*' index='0' name='placeholder' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPlaceholderTextColor:'>
+<arg declared_type='UIColor*' index='0' name='placeholderTextColor' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+</signatures>

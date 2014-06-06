@@ -23,7 +23,7 @@ class FindScreen < PM::TableScreen
   end
 
   def open_profile(args)
-    open ProfileScreen.new(friend_id: args[:friend_id])
+    open ProfileScreen.new(user_id: args[:user_id], nav_bar: true)
   end
 
   def table_data

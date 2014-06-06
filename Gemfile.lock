@@ -4,7 +4,17 @@ GEM
     ProMotion (1.2.0)
       methadone (~> 1.3)
       motion-require (~> 0.2)
+    ProMotion-formotion (0.1.4)
+      ProMotion (>= 1.2.0)
+      formotion (>= 1.7)
+      motion-require (>= 0.2.0)
+    bubble-wrap (1.6.0)
+      bubble-wrap-http (= 1.6.0)
+    bubble-wrap-http (1.6.0)
     dbt (1.1.5)
+    formotion (1.8)
+      bubble-wrap (>= 1.4.0)
+      motion-require (>= 0.1.0)
     methadone (1.4.0)
       bundler
     motion-kit (0.10.2)
@@ -17,5 +27,6 @@ PLATFORMS
 
 DEPENDENCIES
   ProMotion (~> 1.2.0)
+  ProMotion-formotion
   motion-kit
   rake
